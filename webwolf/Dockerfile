@@ -17,4 +17,3 @@ CMD ["--server.port=9090", "--server.address=0.0.0.0"]
 
 Test
 test
-test
