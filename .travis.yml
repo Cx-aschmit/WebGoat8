@@ -22,7 +22,7 @@ before_deploy:
   - echo "Contents of artifacts folder:"
   - ls $WEBGOAT_ARTIFACTS_FOLDER
 deploy:
-  - provider: script
+  - provider: scripts
     skip_cleanup: true
     script: bash scripts/deploy-webgoat.sh
     on:
